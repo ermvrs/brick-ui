@@ -2426,19 +2426,15 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "English",
-                href: "https://t.me/brickchain_finance",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/brickchain_finance",
-            },
+                label: "Global",
+                href: "https://t.me/avocakefinance",
+            }
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/brickdefi",
+        href: "https://twitter.com/avocakefinance",
     },
 ];
 var MENU_HEIGHT = 64;
