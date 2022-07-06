@@ -2113,11 +2113,20 @@ var useModal = function (modal, closeOnOverlayClick) {
 };
 
 var Icon$D = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 64 64" }, props),
-        React.createElement("path", { "data-name": "layer2", d: "M0 0h16v16H0zm24 0h16v16H24zm24 0h16v16H48zM0 48h16v16H0z" }),
-        React.createElement("path", { "data-name": "layer1", d: "M24 48h16v16H24zm24 0h16v16H48z" }),
-        React.createElement("path", { "data-name": "layer2", d: "M0 23.988h16v16H0z" }),
-        React.createElement("path", { "data-name": "layer1", d: "M24 23.988h16v16H24zm24 0h16v16H48z" })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 480 480" }, props),
+        React.createElement("path", { "data-name": "layer2", d: `M114.558,242.929C93.885,263.602,82.5,291.128,82.5,320.436c0,29.308,11.385,56.833,32.057,77.505
+		C135.23,418.615,162.756,430,192.065,430c29.308,0,56.833-11.385,77.506-32.057l7.071-7.071L121.629,235.858L114.558,242.929z
+		 M108.638,353.142l69.285-18.565l-18.565,69.284c-11.362-4.438-21.788-11.192-30.658-20.063
+		C119.829,374.929,113.075,364.504,108.638,353.142z M192.065,410c-4.523,0-8.992-0.333-13.383-0.984l18.559-69.261l50.728,50.728
+		C232.166,403.132,212.656,410,192.065,410z M172.746,315.259l-69.262,18.558c-0.651-4.39-0.984-8.859-0.984-13.382
+		c0-20.591,6.868-40.102,19.518-55.905L172.746,315.259z` }),
+        React.createElement("path", { "data-name": "layer1", d: `M377.5,150h-40.847c-4.228-25.086-24.066-44.94-49.153-49.167V0h-220v100.833
+		c-28.341,4.774-50,29.489-50,59.167v260c0,33.084,26.916,60,60,60h200c29.676,0,54.374-21.661,59.151-50H377.5
+		c46.869,0,85-38.131,85-85V235C462.5,188.131,424.369,150,377.5,150z M337.5,220h40c8.271,0,15,6.729,15,15v110
+		c0,8.271-6.729,15-15,15h-40V220z M267.5,20v30h-140v20h140v30h-180V20H267.5z M77.5,120h10h180h10
+		c18.604,0,34.282,12.767,38.734,30H38.766C43.218,132.767,58.896,120,77.5,120z M277.5,460h-200c-22.056,0-40-17.944-40-40V170h280
+		v250C317.5,442.056,299.556,460,277.5,460z M442.5,345c0,35.841-29.159,65-65,65h-40v-30h40c19.299,0,35-15.701,35-35V235
+		c0-19.299-15.701-35-35-35h-40v-30h40c35.841,0,65,29.159,65,65V345z` })));
 };
 
 var Icon$E = function (props) {
@@ -2142,8 +2151,13 @@ var Icon$H = function (props) {
 };
 
 var Icon$I = function (props) {
-    return (React.createElement(Svg, __assign({}, props, { viewBox: "0 0 64 64" }),
-        React.createElement("path", { "data-name": "layer1", d: "M56 25l7.917 7.576c.175.169-.674.424-.917.424h-7v29a1 1 0 0 1-1 1H42a1 1 0 0 1-1-1V45a1 1 0 0 0-1-1H24a1 1 0 0 0-1 1v17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V33H1a.548.548 0 0 1-.381-.942L32 1.723l14.039 13.571-.026-4.281a2 2 0 0 1 2-2.012H54a2 2 0 0 1 2 2z" })));
+    return (React.createElement(Svg, __assign({}, props, { viewBox: "0 0 58.365 58.365" }),
+        React.createElement("path", { "data-name": "layer1", d: `M57.863,26.632l-8.681-8.061V5.365h-10v3.921L29.182,0L0.502,26.632c-0.404,0.376-0.428,1.009-0.052,1.414
+        c0.375,0.404,1.008,0.427,1.414,0.052l3.319-3.082v33.349h16h16h16V25.015l3.319,3.082c0.192,0.179,0.437,0.267,0.681,0.267
+        c0.269,0,0.536-0.107,0.732-0.319C58.291,27.641,58.267,27.008,57.863,26.632z M41.182,7.365h6v9.349l-6-5.571V7.365z
+         M23.182,56.365V35.302c0-0.517,0.42-0.937,0.937-0.937h10.126c0.517,0,0.937,0.42,0.937,0.937v21.063H23.182z M51.182,56.365h-14
+        V35.302c0-1.62-1.317-2.937-2.937-2.937H24.119c-1.62,0-2.937,1.317-2.937,2.937v21.063h-14V23.158l22-20.429l14.28,13.26
+        l5.72,5.311v0l2,1.857V56.365z` })));
 };
 
 var Icon$J = function (props) {
@@ -2199,8 +2213,27 @@ var Icon$O = function (props) {
 };
 
 var Icon$P = function (props) {
-    return (React.createElement(Svg, __assign({}, props, { viewBox: "0 0 64 64" }),
-        React.createElement("path", { "data-name": "layer1", d: "M64 14V0H50v5H14V0H0v14h5v36H0v14h14v-5h36v5h14V50h-5V14zm-9 36h-5v5H14v-5H9V14h5V9h36v5h5z" })));
+    return (React.createElement(Svg, __assign({}, props, { viewBox: "0 0 297 297" }),
+        React.createElement("path", { "data-name": "layer1", d: `M218.957,140.08c4.536-1.956,8.786-4.772,12.486-8.471c26.629-26.63,24.507-70.285,24.404-72.131
+        c-0.281-5.025-4.336-9.013-9.366-9.211c-1.573-0.061-33.202-1.086-58.623,14.104c-2.646-34.474-31.562-60.735-32.849-61.886
+        c-3.752-3.355-9.44-3.309-13.137,0.109c-1.283,1.185-30.027,28.153-32.721,61.782C83.727,49.18,52.088,50.206,50.519,50.267
+        c-5.03,0.198-9.085,4.187-9.366,9.211c-0.103,1.845-2.225,45.5,24.404,72.131c3.7,3.699,7.95,6.515,12.486,8.471
+        c-18.062,18.262-23.151,45.564-23.389,46.899c-0.886,4.955,2.14,9.771,6.988,11.124c0.802,0.224,11.308,3.075,25.017,3.075
+        c10.17,0,22.099-1.585,33.137-6.959l-7.398,92.235c-0.218,2.717,0.71,5.402,2.558,7.404c1.849,2.004,4.451,3.142,7.176,3.142h52.734
+        c2.724,0,5.324-1.138,7.173-3.139c1.849-2.001,2.778-4.682,2.563-7.399l-7.306-92.2c11.013,5.339,22.902,6.914,33.045,6.914
+        c13.707,0,24.215-2.851,25.017-3.075c4.848-1.352,7.874-6.168,6.988-11.124C242.108,185.645,237.019,158.342,218.957,140.08z
+         M236.13,70.133c-0.876,12.276-4.49,33.657-18.498,47.665c-8.079,8.079-21.227,8.081-29.308,0c-8.08-8.08-8.08-21.229,0-29.308
+        C201.911,74.902,223.672,71.147,236.13,70.133z M148.581,24.001c7.868,9.16,19.96,26.336,19.96,45.38
+        c0,11.051-8.99,20.041-20.041,20.041s-20.041-8.99-20.041-20.041C128.459,50.806,140.684,33.343,148.581,24.001z M60.896,70.11
+        c12.437,0.992,34.126,4.724,47.781,18.38c8.08,8.079,8.08,21.228,0.001,29.308c-8.083,8.081-21.23,8.079-29.309,0
+        C65.437,103.867,61.798,82.411,60.896,70.11z M115.087,174.525c-12.434,7.957-28.579,7.712-38.664,6.485
+        c3.221-9.797,9.872-24.76,22.002-32.523c7.181-4.593,16.757-2.491,21.351,4.687C124.369,160.354,122.267,169.932,115.087,174.525z
+         M155.469,164.512c2.616,27.9,8.827,112.957,8.827,112.957h-31.584c0,0,6.54-84.728,8.897-112.957
+        c0.64-7.661-1.172-15.282-5.384-21.864c-3.261-5.097-7.685-9.165-12.874-11.95c6.507-6.921,10.099-15.595,10.777-24.458
+        c4.458,1.744,9.302,2.713,14.371,2.713c5.069,0,9.913-0.968,14.371-2.713c0.678,8.863,4.27,17.536,10.776,24.458
+        c-5.188,2.785-9.612,6.853-12.874,11.95C156.433,149.431,154.728,156.607,155.469,164.512z M181.912,174.525
+        c-7.178-4.594-9.281-14.171-4.687-21.351c2.947-4.604,7.944-7.12,13.043-7.12c2.851,0,5.733,0.786,8.307,2.433h-0.001
+        c12.123,7.757,18.772,22.705,21.995,32.496C210.454,182.195,194.263,182.429,181.912,174.525z` })));
 };
 
 var Icon$Q = function (props) {
@@ -2414,14 +2447,14 @@ var socials = [
         items: [
             {
                 label: "Global",
-                href: "https://t.me/avocakefinance",
+                href: "https://t.me/limeswapfinance",
             }
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/avocakefinance",
+        href: "https://twitter.com/limeswapfinance",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2762,7 +2795,7 @@ var AccountModal = function (_a) {
     return (React.createElement(Modal, { title: "Your wallet", onDismiss: onDismiss },
         React.createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" } }, account),
         React.createElement(Flex, { mb: "32px" },
-            React.createElement(LinkExternal, { textTransform: "uppercase", small: true, href: "https://bscscan.com/address/" + account, mr: "16px" }, "View on BscScan"),
+            React.createElement(LinkExternal, { textTransform: "uppercase", small: true, href: "https://blockexplorer.boba.network/address/" + account, mr: "16px" }, "View on Boba Explorer"),
             React.createElement(CopyToClipboard, { textTransform: "uppercase", toCopy: account }, "Copy Address")),
         React.createElement(Flex, { justifyContent: "right" },
             React.createElement(BlockButton, { variant: "secondary", onClick: function () {
@@ -2983,17 +3016,17 @@ var baseColors = {
     primaryBright: "#FDD835",
     primaryDark: "#F0B90B",
     secondary: "#7645D9",
-    success: "#33D0AA",
+    success: "#7CBD1E",
     warning: "#FFB237",
-    secondaryDark: "#323063",
+    secondaryDark: "#83BD75",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#3230630a", backgroundDisabled: "#E9EAEB", contrast: "#4E944F", invertedContrast: "#FFFFFF", input: "#eff5fa", tertiary: "#EFF4F5", text: "#0D1821", textDisabled: "#BDC2C4", textSubtle: "#a5b6c3", borderColor: "#4E944F", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#83BD750a", backgroundDisabled: "#E9EAEB", contrast: "#B4FF9F", invertedContrast: "#FFFFFF", input: "#eff5fa", tertiary: "#EFF4F5", text: "#0D1821", textDisabled: "#BDC2C4", textSubtle: "#a5b6c3", borderColor: "#B4FF9F", card: "#FFFFFF", gradients: {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
 } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#e0d39a", secondary: "#885A89", secondaryDark: "#4E944F", background: "#100C18", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#666171", text: "#e0d39a", textDisabled: "#666171", textSubtle: "#4E944F", borderColor: "#4E944F", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#e0d39a", secondary: "#885A89", secondaryDark: "#B4FF9F", background: "#100C18", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#666171", text: "#e0d39a", textDisabled: "#666171", textSubtle: "#B4FF9F", borderColor: "#B4FF9F", card: "#27262c", gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
 } });
 
